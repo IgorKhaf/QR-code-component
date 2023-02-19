@@ -1,0 +1,50 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto&display=swap');
+
+body {
+    background-color: var(--light-gray);
+    font-size: 15px;
+}
+
+.main {
+    background-color: var(--white);
+    margin: auto;
+    border-radius: 20px;
+    width: 450px;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    transform: scale();
+}
+
+#title {
+    font-family: Outfit, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    color: var(--dark-blue);
+    font-size: 32px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#text {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    padding: 5px 15px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
