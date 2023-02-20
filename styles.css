@@ -25,7 +25,7 @@ img {
     transform: scale();
 }
 
-#title {
+.title {
     font-family: Outfit, sans-serif;
     text-align: center;
     font-weight: 900;
@@ -38,7 +38,7 @@ img {
     margin-bottom: 30px;
 }
 
-#text {
+.text {
     color: var(--grayish-blue);
     font-weight: 400;
     font-size: 24px;
