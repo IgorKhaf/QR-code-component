@@ -22,7 +22,7 @@ body {
 img {
     width: 100%;
     border-radius: 10px;
-    transform: scale();
+    
 }
 
 .title {
@@ -30,7 +30,7 @@ img {
     text-align: center;
     font-weight: 900;
     color: var(--dark-blue);
-    font-size: 32px;
+    font-size: 2rem;
     padding-left: 5px;
     padding-right: 5px;
     line-height: 40px;
@@ -41,7 +41,7 @@ img {
 .text {
     color: var(--grayish-blue);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     font-family: Outfit, sans-serif;
     padding: 5px 15px;
