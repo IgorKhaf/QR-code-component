@@ -13,7 +13,7 @@ body {
 
 .main {
     background-color: var(--white);
-    margin: auto;
+    margin: 10rem auto;
     border-radius: 20px;
     width: 450px;
     padding: 20px;
